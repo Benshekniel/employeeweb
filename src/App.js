@@ -3,14 +3,17 @@ import './App.css';
 import Header from "./pages/headers/Header"
 import Dashboard from './pages/dashboard/Daskboard';
 import NoMatch from './pages/noMatch/NoMatch';
+import PostUser from './pages/employee/PostUser';
+
 
 function App() {
   return (
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Dashboard />}></Route>
-        <Route path="*" element={<NoMatch />}></Route>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/employee" element={<PostUser />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
     </>
   );

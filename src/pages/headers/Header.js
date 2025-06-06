@@ -11,7 +11,7 @@ const Header = () => {
       <Navbar bg="primary" variant="dart">
         <Container>
           <Navbar.Brand to="/"><strong>Employee Management System</strong></Navbar.Brand>
-          <Nav ClassName="ml-auto">
+          <Nav className="ml-auto">
             <Nav.Link as={Link} to="/" className="nav-line">Employees</Nav.Link>
             <Nav.Link as={Link} to="/employee" className="nav-line">Post Employee</Nav.Link>
           </Nav>
